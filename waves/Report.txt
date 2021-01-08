@@ -1,0 +1,5 @@
+The wave starts correctly memory is read and then the fsm starts
+it gives the right values to the datapath and since k is one so signal kone is active(comparator from datapath)
+this is supposed to drive from state 40 in hex to state 80 (image 2) however an error occured and it jumped to 
+state 1 and then it gets stuck between state 2 and 4(image 3). Therefore i couldn't have an output and i wasnt able to find
+the error in the code.
